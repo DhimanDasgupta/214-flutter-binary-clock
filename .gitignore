@@ -71,3 +71,5 @@
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+/android/app/src/main/gen/com/example/binary_clock/Manifest.java
+/android/app/src/main/gen/com/example/binary_clock/R.java

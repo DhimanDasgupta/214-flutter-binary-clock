@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.dark,
         textTheme: TextTheme(
-          display1: TextStyle(color: Colors.black38, fontSize: 30),
+          display1: TextStyle(color: Colors.white38, fontSize: 30),
         ),
         fontFamily: 'Alatsi',
       ),
@@ -103,6 +103,7 @@ class _ClockState extends State<Clock> {
 // List fixedRows = Iterable<int>.generate(4).toList();
 
 /// Column to represent a binary integer.
+@immutable
 class ClockColumn extends StatelessWidget {
   String binaryInteger;
   String title;
